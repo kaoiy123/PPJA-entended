@@ -1,0 +1,2106 @@
+{
+  "name": "PPJA EXTENDED - MACHINES",
+  "author": "PopulateProjectJsonAssets kaoiy123",
+  "version": "0.5.0",
+  "machines": [
+    {
+      "id": 0,
+      "name": "蒸馏器",
+      "description": "一种用来酿酒的蒸馏系统。可以酿造酒精。",
+      "category": "Crafting",
+      "texture": "Still.png",
+      "crafting": "335 5 334 10",
+      "pulsate": true,
+      "tileindex": 0,
+      "production": [
+        {
+          "item": "杏仁甜酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "杏仁",
+              "stack": 2
+            }
+          ]
+        },
+        {
+          "item": "波本威士忌",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "玉米麦芽"
+            }
+          ]
+        },
+        {
+          "item": "白兰地",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 348
+            }
+          ]
+        },
+		    {
+          "item": "酒精",
+          "time": 260,
+          "materials": [
+            {
+              "name": "原浆"
+            }
+          ]
+        },
+	    	{
+          "item": "酒精",
+          "time": 260,
+          "materials": [
+            {
+              "name": "烧酒"
+            }
+          ]
+        },
+        {
+          "item": "金酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "杜松子"
+            }
+          ]
+        },
+        {
+          "item": "摩闪酒",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 270
+            }
+          ]
+        },
+        {
+          "item": "朗姆酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "甘蔗"
+            }
+          ]
+        },
+        {
+		  "item": "苏格兰威士忌",
+          "time": 6000,
+          "materials": [
+            {
+              "name": "大麦麦芽"
+            }
+          ]
+        },
+		 {
+          "item": "烧酒",
+          "time": 6000,
+          "materials": [
+            {
+              "name": "红薯"
+            }
+          ]
+        },
+        {
+          "item": "酒精",
+          "time": 300,
+          "materials": [
+            {
+              "name": "烧酒"
+            }
+          ]
+        },
+        {
+          "item": "味美思酒",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 398
+            }
+          ]
+        },
+        {
+          "item": "伏特加",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 192
+            }
+          ]
+        },
+        {
+          "item": "威士忌",
+          "time": 6000,
+          "materials": [
+            {
+              "name": "小麦麦芽"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "硬木桶",
+      "description": "加入水果，配合原浆用来发酵更好的酒。",
+      "category": "Crafting",
+      "texture": "hardwoodkeg.png",
+      "crafting": "335 1 334 1 725 1 709 10",
+      "pulsate": true,
+      "tileindex": 0,
+      "starter": {
+        "name": "原浆"
+      },  
+      "production": [
+        {
+          "item": "水果酒",
+          "name": "水果酒",
+          "texture": "wine.png",
+          "prefix": "true",
+          "tileindex": 15,
+          "price": "1000 + (input * 2.1)",
+          "time": 3600,
+          "materials": [
+            {
+              "index": -79
+            }
+          ]
+        },
+        {
+          "item": "Cauim酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "木薯"
+            }
+          ]
+        },
+        {
+          "item": "黑啤酒",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 262
+            }
+          ]
+        },
+        {
+          "item": "姜啤酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "姜"
+            }
+          ]
+        },
+        {
+          "item": "浓苹果酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "苹果酒"
+            }
+          ]
+        },
+        {
+          "item": "克非尔酸奶",
+          "time": 2360,
+          "include": [
+            438
+          ],
+          "materials": [
+            {
+              "index": 436
+            }
+          ]
+        },
+        {
+          "item": "马奶酒",
+          "time": 2360,
+          "include": [
+            186
+          ],
+          "materials": [
+            {
+              "index": 184
+            }
+          ]
+        },
+        {
+          "item": "印度奶昔",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "酸奶"
+            }
+          ]
+        },
+        {
+          "item": "梨酒",
+          "time": 6000,
+          "materials": [
+            {
+              "name": "梨"
+            }
+          ]
+        },
+        {
+          "item": "波特酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "小麦麦芽"
+            }
+          ]
+        },
+        {
+          "item": "Pulque龙舌兰酒",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "Maguey"
+            }
+          ]
+        },
+        {
+          "item": "日本米酒",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 423
+            }
+          ]
+        },
+        {
+          "item": "气泡酒",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 398
+            }
+          ]
+        },
+        {
+          "item": "烈性啤酒",
+          "time": 6000,
+          "materials": [
+            {
+              "name": "大麦麦芽"
+            }
+          ]
+        },
+        {
+          "item": "梅酒",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 406
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "玻璃罐",
+      "description": "将茶叶变成各种茶。同时能用大米制造酵母。你可能需要购买一个酵母作为引子。",
+      "category": "Crafting",
+      "texture": "glassjar.png",
+      "crafting": "338 6 30 20 82 1",
+      "pulsate": true,
+      "tileindex": 0,
+      "starter": {
+        "name": "酵母"
+      },	  
+      "production": [
+        {
+          "item": "大麦康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "大麦茶"
+            }
+          ]
+        },
+        {
+          "item": "混合浆果康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "混合浆果茶"
+            }
+          ]
+        },
+		        {
+          "item": "酵母",
+          "time": 10,
+          "materials": [
+            {
+              "name": "Rice"
+            }
+          ]
+        },
+        {
+          "item": "红康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "红茶"
+            }
+          ]
+        },
+        {
+          "item": "蓝雾康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "蓝雾茶"
+            }
+          ]
+        },
+        {
+          "item": "早餐康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "早餐茶"
+            }
+          ]
+        },
+        {
+          "item": "蔓越莓石榴康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "蔓越莓石榴茶"
+            }
+          ]
+        },
+        {
+          "item": "印度康普香茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "印度香茶"
+            }
+          ]
+        },
+        {
+          "item": "甘菊康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "甘菊茶"
+            }
+          ]
+        },
+        {
+          "item": "鸡油菌康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 281
+            }
+          ]
+        },
+        {
+          "item": "格雷伯爵康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "格雷伯爵茶"
+            }
+          ]
+        },
+        {
+          "item": "蒲公英康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "蒲公英茶"
+            }
+          ]
+        },
+        {
+          "item": "绿康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "绿茶"
+            }
+          ]
+        },
+        {
+          "item": "茉莉花康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "茉莉花茶"
+            }
+          ]
+        },
+        {
+          "item": "康普茶",
+          "time": 600,
+          "materials": [
+            {
+              "index": 404
+            }
+          ]
+        },
+        {
+          "item": "柠檬康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "柠檬茶"
+            }
+          ]
+        },
+        {
+          "item": "薄荷康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "薄荷茶"
+            }
+          ]
+        },
+        {
+          "item": "龙葵康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 257
+            }
+          ]
+        },
+        {
+          "item": "乌龙康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "乌龙茶"
+            }
+          ]
+        },
+        {
+          "item": "紫蘑菇康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 422
+            }
+          ]
+        },
+        {
+          "item": "红蘑菇康普茶",
+          "time": 600,
+          "materials": [
+            {
+              "index": 420
+            }
+          ]
+        },
+        {
+          "item": "玫瑰康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "玫瑰茶"
+            }
+          ]
+        },
+        {
+          "item": "香料康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "香料茶"
+            }
+          ]
+        },
+        {
+          "item": "草莓西柚康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "草莓西柚茶"
+            }
+          ]
+        },
+        {
+          "item": "白康普茶",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "白茶"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "腌制桶",
+      "description": "这个桶是外国制造的。它可以让大豆发酵。",
+      "category": "Crafting",
+      "texture": "foreigncask.png",
+      "crafting": "709 15 390 5 771 10 725 1",
+      "pulsate": true,
+      "tileindex": 0,
+      "starter": {
+        "name": "黄豆"
+      },
+      "production": [
+        {
+          "item": "酱油",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "黄豆"
+            }
+          ]
+        },
+        {
+          "item": "朝鲜泡菜",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "卷心菜"
+            }
+          ]
+        },
+        {
+          "item": "纳豆",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "纳豆发酵液"
+            }
+          ]
+        },
+        {
+          "item": "味噌酱",
+          "time": 2360,
+          "materials": [
+            {
+              "name": "味噌发酵液"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "奶油搅拌器",
+      "description": "把奶制品变成奶油。可以用来做冰淇淋",
+      "category": "Crafting",
+      "texture": "newmachines.png",
+      "crafting": "388 40 726 1",
+      "pulsate": true,
+      "readyindex": 0,
+      "tileindex": 0,
+      "frames": 2,
+      "tileindex": 0,
+      "production": [
+        {
+          "name": "奶油",
+          "description": "普通奶油。",
+          "texture": "newproduce.png",
+          "tileindex": 7,
+          "time": 180,
+          "materials": [
+            {
+              "index": 184
+            }
+          ]
+        },
+        {
+          "name": "高品质奶油",
+          "item": "奶油",
+          "description": "高品质奶油。",
+          "texture": "newproduce.png",
+          "tileindex": 7,
+          "time": 180,
+          "quality": 4,
+          "materials": [
+            {
+              "index": 186
+            }
+          ]
+        },
+        {
+          "name": "椰子奶油",
+          "item": "奶油",
+          "time": 180,
+          "texture": "producetilesheet.png",
+          "tileindex": 4,
+          "materials": [
+            {
+              "index": 88
+            }
+          ]
+        },
+        {
+          "name": "羊奶奶油",
+          "item": "奶油",
+          "time": 180,
+          "texture": "producetilesheet.png",
+          "tileindex": 3,
+          "include": [
+            438
+          ],
+          "materials": [
+            {
+              "index": 436
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 5,
+      "name": "脱水器",
+      "description": "把水果放在这里脱水、干燥。",
+      "category": "Crafting",
+      "texture": "dehydrator.png",
+      "crafting": "390 45 766 20",
+      "pulsate": true,
+      "tileindex": 0,
+      "production": [
+        {
+          "name": "干燥",
+          "item": "水果干",
+          "suffix": true,
+          "time": 1600,
+          "texture": "produce.png",
+          "tileindex": 2,
+          "exclude": [
+            398
+          ],
+          "price": "original + (input * 1.3)",
+          "materials": [
+            {
+              "index": -79
+            }
+          ]
+        },
+        {
+          "item": "茶包",
+          "time": 2250,
+          "suffix": true,
+          "texture": "cb.png",
+          "tileindex": 0,
+          "materials": [
+            {
+              "index": -79
+            },
+            {
+              "name": "干茶叶",
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "榨油机",
+      "description": "一家生产特种油的多功能油生产器。",
+      "category": "Crafting",
+      "texture": "enhancedoilmaker.png",
+      "crafting": "766 50 709 20 336 1",
+      "pulsate": true,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 2,
+      "production": [
+        {
+          "item": "油脂",
+          "time": 240,
+          "materials": [
+            {
+              "index": 88
+            }
+          ]
+        },
+        {
+          "item": "油脂",
+          "time": 240,
+          "materials": [
+            {
+              "name": "橄榄"
+            }
+          ]
+        },
+        {
+          "item": "油脂",
+          "time": 240,
+          "materials": [
+            {
+              "name": "花生"
+            }
+          ]
+        },
+        {
+          "item": "油脂",
+          "time": 240,
+          "materials": [
+            {
+              "name": "芝麻"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 8,
+      "name": "挤压机",
+      "description": "把面粉变成面条，蜂蜜变成蜂蜡！",
+      "category": "Crafting",
+      "texture": "extruder.png",
+      "crafting": "709 5 335 2 787 1",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      "production": [
+        {
+          "item": "蜂蜡",
+          "time": 60,
+          "materials": [
+            {
+              "index": 340
+            }
+          ]
+        },
+        {
+          "item": "米丝",
+          "time": 360,
+          "materials": [
+            {
+              "name": "米粉"
+            }
+          ]
+        },
+        {
+          "item": "面条",
+          "time": 360,
+          "materials": [
+            {
+              "index": 246
+            }
+          ]
+        },
+        {
+          "item": "木薯粉",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "木薯"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 9,
+      "name": "研磨机",
+      "description": "用它来打磨大米或碾磨成有价值的商品和香料。",
+      "category": "Crafting",
+      "texture": "grinder.png",
+      "crafting": "709 5 335 5 787 1 338 1",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      "production": [
+        {
+          "item": "藏红花",
+          "time": 240,
+          "materials": [
+            {
+              "index": 418
+            }
+          ]
+        },
+        {
+          "item": "Rice",
+          "time": 20,
+          "materials": [
+            {
+              "name": "未脱壳的稻米"
+            }
+          ]
+        },
+        {
+          "item": "米粉",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 423
+            }
+          ]
+        },
+        {
+          "item": "Sugar",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 284
+            }
+          ]
+        },
+        {
+          "item": "Sugar",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "甜菜"
+            }
+          ]
+        },
+        {
+          "item": "Sugar",
+          "time": 1600,
+          "materials": [
+            {
+              "name": "甘蔗"
+            }
+          ]
+        },
+        {
+          "item": "芥末酱",
+          "time": 240,
+          "materials": [
+            {
+              "name": "山萮菜"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "texture": "produce.png",
+          "tileindex": 10,
+          "time": 60,
+          "materials": [
+            {
+              "name": "青柠"
+            }
+          ]
+        },
+        {
+          "item": "Wheat Flour",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 262
+            }
+          ]
+        },
+        {
+          "item": "玉米粉",
+          "time": 1600,
+          "materials": [
+            {
+              "index": 270
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "铁线莲"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "接骨木"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "柠檬"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "依兰依兰"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "百香果花"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "金银花"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "菊花"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "薰衣草"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "雏菊"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "风信子"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "樟脑叶"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "千层叶"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "桉树叶"
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "草药粉",
+          "time": 360,
+          "suffix": true,
+          "texture": "produce.png",
+          "tileindex": 10,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "茶叶",
+              "stack": 3
+            }
+          ]
+        },
+        {
+          "name": "研磨",
+          "item": "蔬菜粉",
+          "time": 360,
+          "suffix": true,
+          "exclude": [
+            270,
+            284
+          ],
+          "texture": "produce.png",
+          "tileindex": 11,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "index": -75
+            }
+          ]
+        }
+      ]
+    },
+    /*{
+      "id": 10,
+      "name": "浸煮器",
+      "description": "一种化学装置，用来将特别的味道注入伏特加，制成利口酒和金酒。",
+      "category": "Crafting",
+      "texture": "infuser.png",
+      "crafting": "388 40 338 5 335 10",
+      "pulsate": true,
+      "readyindex": 1,
+      "tileindex": 0,
+      "frames": 1,
+      "production": [
+        {
+          "item": "烈性干酒",
+          "texture": "produce.png",
+          "tileindex": 8,
+          "prefix": true,
+          "exclude": [
+            613,
+            636
+          ],
+          "time": 6000,
+          "price": "original + (input * 2)",
+          "materials": [
+            {
+              "index": -79
+            }
+          ]
+        },
+        {
+          "item": "苹果味烈酒",
+          "time": 4800,
+          "materials": [
+            {
+              "index": 613
+            }
+          ]
+        },
+        {
+          "item": "桃子味烈酒",
+          "time": 4800,
+          "materials": [
+            {
+              "index": 636
+            }
+          ]
+        },
+        {
+          "item": "薄荷味烈酒",
+          "time": 4800,
+          "materials": [
+            {
+              "name": "薄荷"
+            }
+          ]
+        }
+      ]
+    },*/
+    {
+      "id": 11,
+      "name": "纺线车",
+      "description": "一个小的纺车，把纤维或棉花变成线。",
+      "category": "Crafting",
+      "texture": "spinningwheel.png",
+      "crafting": "388 30 771 20 726 1",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      "production": [
+        {
+          "item": "金线",
+          "time": 180,
+          "materials": [
+            {
+              "index": 336
+            }
+          ]
+        },
+        {
+          "item": "线",
+          "time": 180,
+          "materials": [
+            {
+              "name": "棉花"
+            }
+          ]
+        },
+        {
+          "item": "麻线",
+          "time": 180,
+          "materials": [
+            {
+              "index": 771
+            }
+          ]
+        },
+        {
+          "item": "纱线",
+          "time": 120,
+          "materials": [
+            {
+              "index": 440
+            }
+          ]
+        },
+        {
+          "index": 789,
+          "time": 240,
+          "materials": [
+            {
+              "name": "线",
+              "stack": 5
+            },
+            {
+              "index": 66
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "酸奶罐",
+      "description": "这个罐子能够让牛奶发酵成酸奶。",
+      "category": "Crafting",
+      "texture": "yogurtjar.png",
+      "crafting": "390 40 186 5 337 2",
+      "pulsate": true,
+      "readyindex": 1,
+      "tileindex": 0,
+      "frames": 1,
+      "production": [
+        {
+          "item": "酸羊奶",
+          "include": [
+            438
+          ],
+          "time": 1600,
+          "materials": [
+            {
+              "index": 436
+            }
+          ]
+        },
+        {
+          "item": "酸奶",
+          "include": [
+            186
+          ],
+          "time": 1600,
+          "materials": [
+            {
+              "index": 184
+            }
+          ]
+        },
+        {
+          "name": "酸奶",
+          "item": "水果酸奶",
+          "texture": "produce.png",
+          "tileindex": 9,
+          "prefix": true,
+          "time": 1600,
+          "price": "original + (input * 1.25)",
+          "materials": [
+            {
+              "index": -79
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "酿造桶",
+      "description": "用来发酵大米和大麦，变成普通的酒浆。",
+      "category": "Crafting",
+      "texture": "waxbarrel.png",
+      "crafting": "340 2 388 50 335 1",
+      "pulsate": true,
+      "readyindex": 1,
+      "tileindex": 0,
+      "frames": 1,
+      "production": [
+        {
+          "item": "原浆",
+          "time": 360,
+          "prefix": true,
+          "texture": "produce.png",
+          "tileindex": 0,
+          "price": "130 + (input * 1.3)",
+          "materials": [
+            {
+              "name": "Rice",
+              "stack": 3
+            }
+          ]
+        },
+        {
+          "item": "原浆",
+          "time": 360,
+          "prefix": true,
+          "texture": "produce.png",
+          "tileindex": 0,
+          "price": "130 + (input * 1.3)",
+          "materials": [
+            {
+              "name": "大麦",
+              "stack": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "冰淇淋制造机",
+      "description": "一种在家制作美味冰淇淋的机器。",
+      "category": "Crafting",
+      "texture": "icecreammachine.png",
+      "crafting": "335 10 787 1 84 2",
+      "pulsate": true,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 2,
+      "starter": {
+        "name": "奶油"
+      },
+      "production": [
+      {
+          "item": "生日蛋糕味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "巧克力彩针"
+	          },
+	          {
+	            "name": "香草"
+            }
+          ]
+        },
+	      {
+	        "name": "果味冰淇淋",
+          "item": "果味冰淇淋",
+          "time": 1500,
+          "price": "130 + (input * 1.3)",
+          "materials": [
+            {
+              "name": "水果甜浆"
+            }
+          ]
+        },
+        {
+	        "name": "果味冰淇淋",
+          "item": "果味冰淇淋",
+          "time": 1500,
+          "price": "130 + (input * 1.8)",
+          "materials": [
+            {
+              "name": "水果浓缩"
+            }
+          ]
+        },
+        {
+          "item": "巧克力冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "巧克力"
+            }
+          ]
+        },
+      {
+          "item": "巧克力酱冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "巧克力糖浆"
+            }
+          ]
+        },
+	        {
+          "item": "咖啡冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": "395"
+            }
+          ]
+        },
+        {
+          "item": "小甜饼曲奇味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": "223"
+            }
+          ]
+        },
+        {
+          "item": "棉花糖味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "棉花糖"
+            }
+          ]
+        },
+       {
+	       "item": "羊奶冰淇淋",
+         "time": 1500,
+         "materials": [
+	          {
+	           "index": "426"
+	          }
+        	]
+       },
+       {
+          "item": "薰衣草冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "草本薰衣草"
+            }
+          ]
+        },
+        {
+          "item": "柠檬冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "柠檬"
+            }
+          ]
+        },
+        {
+          "item": "抹茶冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "抹茶粉"
+            }
+          ]
+        },
+        {
+          "item": "枫糖味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": "724"
+            }
+          ]
+        },
+        {
+          "item": "薄荷冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "薄荷",
+	          }
+          ]
+        },
+        {
+          "item": "三色冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "巧克力冰淇淋"
+            }
+          ]
+        },
+        {
+          "item": "三色冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "香草冰淇淋"
+            }
+          ]
+        },
+        {
+          "item": "三色冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "草莓冰淇淋"
+            }
+          ]
+        },
+        {
+          "item": "橙子冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": 635
+            }
+          ]
+        },
+        {
+          "item": "南瓜味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": "276"
+            }
+          ]
+        },
+        {
+          "item": "树莓味冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "树莓"
+            }
+          ]
+        },
+        {
+          "item": "草莓冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "index": 400
+            }
+          ]
+        },
+       {
+          "item": "草莓酱冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "草莓糖浆"
+            }
+          ]
+        },
+        {
+          "item": "香草冰淇淋",
+          "time": 1500,
+          "materials": [
+            {
+              "name": "香草"
+            }
+          ]
+        },
+        {
+          "item": "五彩冰淇淋",
+          "time": 6000,
+          "materials": [
+            {
+              "index": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "蒸馏瓶",
+      "description": "提取花、水果、蔬菜的精华。",
+      "category": "Crafting",
+      "texture": "alembic.png",
+      "crafting": "334 5 766 50 709 10",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      /*"forsale": true,
+      "shop": "Gus",
+      "price": 3345,
+      "condition": "y 2",*/
+      "production": [
+        {
+          "item": "花朵精华",
+          "time": 600,
+          "prefix": true,
+          "texture": "tqy.png",
+          "tileindex": 4,
+          "price": "150 + (input * 1.3)",
+          "materials": [
+            {
+              "index": -80,
+              "exactquality": 0
+            } , 
+          ]
+        },
+        {
+          "item": "花朵精华",
+          "time": 600,
+          "quality": -1,
+          "prefix": true,
+          "texture": "tqy.png",
+          "tileindex": 4,
+          "price": "100 + (input * 1)",
+          "materials": [
+            {
+              "index": -80,
+              "exactquality": 1
+            }
+          ]
+        },
+        {
+          "item": "精萃",
+          "time": 600,
+          "quality": -1,
+          "prefix": true,
+          "texture": "tqy.png",
+          "tileindex": 5,
+          "price": "180 + (input * 1.6)",
+          "materials": [
+            {
+              "index": -80,
+              "exactquality": 2
+            }
+          ]
+        },
+        {
+          "item": "水果甜浆",
+          "time": 600,
+          "prefix": true,
+          "colored": false,
+          "exclude":[
+            454,
+            268],
+          "texture": "tqy.png",
+          "tileindex": 3,
+          "price": "100 + (input * 1.5)",
+          "materials": [
+            {
+              "index": -79,
+              "exactquality": 0
+            }	,	
+          ]
+        },
+        {
+          "item": "水果甜浆",
+          "time": 600,
+          "prefix": true,
+          "exclude":[
+            454,
+            268],
+          "colored": false,
+          "texture": "tqy.png",
+          "tileindex": 3,
+          "price": "100 + (input * 1.5)",
+          "materials": [
+            {
+              "index": -79,
+              "exactquality": 1
+            } , 
+          ]
+        },
+        {
+          "item": "水果浓缩",
+          "time": 600,
+          "prefix": true,
+          "exclude":[
+            454,
+            268],
+          "colored": false,
+          "texture": "tqy.png",
+          "tileindex": 2,
+          "price": "200 + (input * 1.5)",
+          "materials": [
+            {
+              "index": -79,
+              "exactquality": 2
+            } , 
+          ]
+        },
+        {
+          "time": 600,
+          "item": "蔬菜浓缩",
+          "prefix": true,
+          "colored": false,
+          "texture": "tqy.png",
+          "tileindex": 0,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "index": -75
+            }			
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "醋桶",
+      "description": "一种用来把葡萄变成醋的桶。",
+      "category": "Crafting",
+      "texture": "vinegarcask.png",
+      "crafting": "388 30 335 1 726 3",
+      "pulsate": true,
+      "production": [
+        {
+          "index": 419,
+          "time": 2360,
+          "materials": [
+            {
+              "index": 398
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "果汁机",
+      "description": "把水果变成鲜榨果汁。",
+      "category": "Crafting",
+      "texture": "juicer.png",
+      "crafting": "709 10 335 20 575 1",
+      "pulsate": true,
+	    "starter":{
+        "index": 245,
+		    "stack": 2,
+      },
+      "production": [
+        {
+          "name": "果汁",
+          "item": "果汁",
+          "prefix": true,
+          "time": 1200,
+          "texture": "produce.png",
+          "tileindex": 7,
+          "price": "200 + (input * 1.6)",
+          "materials": [
+            {
+              "index": -79
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "香皂压制机",
+      "description": "一种用于制作肥皂的压制机。",
+      "category": "Crafting",
+      "texture": "soappress.png",
+      "crafting": "335 5 334 1 766 5 572 1",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      "starter": {
+        "name": "肥皂"
+      },
+      "production": [
+        {
+          "item": "香皂",
+          "name": "香皂",
+          "time": 4000,
+          "prefix": true,
+          "texture": "produce.png",
+          "tileindex": 12,
+          "price": "original + (input * 1.5)",
+          "materials": [
+            {
+              "name": "花朵精华"
+            }
+          ]
+        },
+        {
+          "item": "香皂",
+          "name": "香皂",
+          "time": 4000,
+          "prefix": true,
+          "texture": "produce.png",
+          "tileindex": 12,
+          "price": "400 + (input * 1.5)",
+          "materials": [
+            {
+              "name": "精萃"
+            }
+          ]
+        },
+        {
+          "item": "药皂",
+          "name": "药皂",
+          "time": 4500,
+          "prefix": true,
+          "texture": "produce.png",
+          "tileindex": 12,
+          "price": "400 + (input * 4)",
+          "materials": [
+            {
+              "name": "草药粉"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "id": 21,
+      "name": "蛋黄酱机",
+      "description": "用于生产蛋黄酱和沙拉酱的机器。也可以生产奇异的蛋黄酱。",
+      "category": "Crafting",
+      "texture": "mayomachine.png",
+      "crafting": "388 25 390 25 86 2 334 2",
+      "pulsate": false,
+      "readyindex": 7,
+      "tileindex": 0,
+      "frames": 6,
+      "starter": {
+        "index": -5
+      },
+      "production": [
+        {
+          "item": "恐龙蛋黄酱",
+          "time": 360,
+          "materials": [
+            {
+              "index": 107
+            }
+          ],
+        },
+        {
+          "item": "雷电蛋黄酱",
+          "time": 360,
+          "materials": [
+            {
+              "index": 558
+            }
+          ]
+        },
+        {
+          "item": "幸运的紫色蛋黄酱",
+          "time": 360,
+          "materials": [
+            {
+              "index": 789
+            }
+          ]
+        },
+        {
+          "item": "牛油果沙拉酱",
+          "time": 360,
+          "materials": [
+            {
+              "name": "牛油果"
+            }
+          ]
+        },
+        {
+          "item": "黑胡椒蛋黄酱",
+          "time": 360,
+          "materials": [
+            {
+              "name": "甜椒"
+            }
+          ]
+        },
+        {
+          "item": "橄榄油沙拉酱",
+          "time": 360,
+          "materials": [
+            {
+              "name": "橄榄油"
+            }
+          ]
+        },
+        {
+          "item": "大蒜沙拉酱",
+          "time": 360,
+          "materials": [
+            {
+              "index": 248
+            }
+          ]
+        },
+        {
+          "item": "芥末沙拉酱",
+          "time": 360,
+          "materials": [
+            {
+              "name": "山萮菜"
+            }
+          ],
+        },
+      ],
+    },
+    {
+      "id": 22,
+      "name": "香水制造器",
+      "description": "把花的精华进行加工，来制造香水。",
+      "category": "Crafting",
+      "texture": "perfumery.png",
+      "crafting": "766 40 709 20 335 1",
+      "pulsate": true,
+      "tileindex": 0,
+      "starter": 
+      {
+        "name": "酒精"
+      },
+      "production":
+      [
+               {
+        "name": "香水",
+        "item": "香水",
+        "time": 3500,
+        "prefix": true,
+        "texture": "xs.png",
+        "tileindex": 0,
+        "price": "300 + (input * 1.5)",
+        "materials": [
+              {
+                  "item": "花朵精华"
+        }
+          ]
+
+        },
+        {
+        "name": "香氛",
+        "item": "香氛",
+        "time": 3500,
+        "prefix": true,
+        "texture": "xs.png",
+        "tileindex": 0,
+        "price": "300 + (input * 1.5)",
+        "materials": [
+              {
+                  "item": "精萃"
+        }
+          ]
+
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "肥皂制造机",
+      "description": "将油脂制成一块肥皂。",
+      "texture": "soap maker.png",
+      "crafting": "709 20 382 5 336 1",
+      "pulsate": true,
+      "tileindex": 0,
+      "starter": 
+      {
+        "name": "烧碱" 
+      },
+      "production":
+      [
+        {
+          "name": "肥皂",
+          "prefix": false,
+          "time": 780,
+          "quality": -1,
+          "texture": "soap.png",
+          "tileindex": 0,
+          "price": "300 + (input * 1)",
+          "materials":
+          [
+            {
+              "name": "油脂",
+            }
+          ]
+        }
+      ]
+    },
+         {
+       "id": 24,
+       "legacy": "Platonymous.Mystical.TimeSphere.json",
+       "name": "时光机",
+       "description": "让时间改变一切。（10个春夏秋玫瑰+精灵石=？）",
+       "category": "Crafting",
+       "crafting" : "337 3 70 3 62 3 60 3",
+       "pulsate": false,
+       "texture": "mystical.png",
+       "shop": "Krobus",
+       "forsale": true,
+       "price": 200000,
+       "readyindex": 11,
+       "frames": 4,
+       "starter":
+      {
+        "index": 787,
+        "stack": 1
+      },
+       "production":
+      [
+        {
+          "item": "Dinosaur Egg",
+          "time": 1200,
+          "materials":
+          [
+            {
+              "item": "Large Egg",
+              "stack": 5
+            }
+          ]
+        },
+        {
+          "index": 709,
+          "stack": 5,
+          "time": 1200,
+          "materials":
+          [
+            {
+              "index": 388,
+              "stack": 20
+            }
+          ]
+        },
+        {
+          "index": 499,
+          "stack": 10,
+          "time": 1200,
+          "materials":
+          [
+            {
+              "index": 770,
+              "stack": 50
+            }
+          ]
+        },
+        {
+          "index": 305,
+          "time": 1200,
+          "materials":
+          [
+            {
+              "index": 442,
+              "stack": 2
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "time": 1200,
+          "materials":
+          [
+            {
+              "index": 382,
+              "stack": 50
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "time": 1200,
+          "materials":
+          [
+            {
+              "index": 93,
+              "stack": 10
+            }
+          ]
+        },
+        {
+          "item": "永恒玫瑰种子",
+          "time": 1200,
+          "materials":
+          [
+            {
+              "name": "春季玫瑰种子",
+              "stack": 10
+            },
+            {
+              "name": "夏季玫瑰种子",
+              "stack": 10
+            },
+            {
+              "name": "秋季玫瑰种子",
+              "stack": 10
+            },
+            {
+              "index": 577,
+              "stack": 3
+            },
+          ]
+        }
+      ] 
+      }
+  ]
+}
